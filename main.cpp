@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include "atm.h"
 using namespace std; 
 
 const double pi = 3.14159265;
@@ -14,10 +14,12 @@ class Rocket{
 	private:
 		double diameter;
 
-}
+};
 
 int main(){
-
+	atm test;
+	double test2 = test.pres(1000);
+	cout << test2 << endl;
 	return 0;
 }
 

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-double ATM::temp(double H)
+double atm::temp(double H)
 {
 	double T;
 	int US_H [7] = {0, 11000, 20000, 32000, 47000, 51000, 71000}
@@ -27,13 +27,13 @@ double ATM::temp(double H)
 	return T;
 }
 
-double ATM::pres(double H)
+double atm::pres(double H)
 {
 	double P = 101325;
 	return P;
 }
 
-double ATM::dens(double H)
+double atm::dens(double H)
 {
 	double rho = 1.225;
 	return rho;
