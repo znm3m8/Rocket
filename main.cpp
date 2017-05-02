@@ -12,7 +12,7 @@ class Rocket{
 			return 4000;
 		}
 	private:
-		diameter = 4*i2m;
+		double diameter;
 
 }
 
