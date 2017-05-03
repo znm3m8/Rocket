@@ -7,10 +7,13 @@ class atm{
 		double P;
 		double rho;
 		double h;
+		double offT;
+		double scP;
 	public:
-		double temp(double H);
-		double pres(double H);
-		double dens(double H);
+		atm(double H, double offT, double scP);
+		double temp(double H, double offT);
+		double pres(double H, double scP);
+		double dens(double H, double offT, double scP);
 };
 
 #endif

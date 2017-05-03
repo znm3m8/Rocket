@@ -4,22 +4,17 @@ using namespace std;
 
 const double pi = 3.14159265;
 
-const double i2m = .0254;
-
-class Rocket{
-	public:
-		double height(Rocket r1){
-			return 4000;
-		}
-	private:
-		double diameter;
-
-};
 
 int main(){
-	atm test;
-	double test2 = test.pres(1000);
-	cout << test2 << endl;
+	double offT = 0;
+	double scP = 1;
+	
+	for(double initH = 0; initH <100000; initH+=5000)
+	{
+		atm A(initH, offT, scP);
+		cout << "\n\n";
+	}
+
 	return 0;
 }
 
