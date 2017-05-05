@@ -1,5 +1,8 @@
 #include <iostream>
 #include "atm.h"
+#include "engine.h"
+#include "flightparam.h"
+
 using namespace std; 
 
 const double pi = 3.14159265;

@@ -2,9 +2,12 @@
 #define ENGINE_H
 
 class Engine{
-	public:
-
 	private:
+		double Pc;
+		double cstar;
+		double epsilon;
+		double mdot;
+	public:
 
 };
 
